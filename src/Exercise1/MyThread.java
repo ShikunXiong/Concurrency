@@ -1,3 +1,5 @@
+package Exercise1;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
@@ -77,7 +79,7 @@ public class MyThread extends Thread implements Runnable{
                 System.exit(1);
             }
             else {
-                System.out.println("Wrong input, Please enter again:");
+                System.exit(1);
             }
 
         }
